@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ToDo List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+    
+    
+</head>
+<body>      
+    <div class="container">
+        <header>
+            <h1>ToDo List</h1>
+        </header>
+        <form id="form">
+            <input id="input" type="text" placeholder="What needs to be done?" onfocus="this.placeholder=''" onblur="this.placeholder='What needs to be done?'"/>
+            <input id="submit" type="submit" value="add task" />
+        </form>
+        <div class="list" id="list">
+        
+        </div>
+        <button class="removeAll-button" id="removeAll">Remove All</button>
+    
+    </div>
+    <script type="text/javascript" src="toDoList.js">
+    </script>
+</body>
+</html> 

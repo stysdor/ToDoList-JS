@@ -1,0 +1,124 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    background-image: url("img/tic-tac-toe.png");
+    /* Background pattern from Toptal Subtle Patterns */
+    
+    
+}
+
+.container {
+    width: 500px;
+    margin: 20px auto 0 auto;
+    padding: 50px;
+    text-align: center;
+    background: #ffffff;
+    border: 2px solid  #daad86;
+    border-radius: 15px;
+    -webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9) ;
+}
+
+header h1 {
+    color: #312c32;
+    font-family: 'Indie Flower', cursive;
+}
+
+input {
+    width: 350px;
+    font-size: 20px;
+    color: #daad86;
+    border: 2px solid #98dafc;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+input:focus {
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 5px 2px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 5px 2px rgba(204,204,204,0.9) ;
+	border: 2px solid #98dafc;
+	color: #312c32;
+    outline: none;
+}
+
+input:focus::-webkit-input-placeholder {
+	color: #312c32;	
+}
+input::-webkit-input-placeholder {
+	color: #999;	
+}
+input::-moz-placeholder {
+	color: #999;
+}
+input:focus::-moz-placeholder {
+	color: #312c32;	
+}
+input:focus::-ms-input-placeholder {
+	color: #312c32;	
+}
+input::-ms-input-placeholder {
+	color: #999;	
+}
+input:-moz-placeholder {
+	color: #999;
+}
+input:focus:-moz-placeholder {
+	color: #312c32;	
+}
+
+.task {
+    color: #312c32;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left;
+    width: 330px;
+    border-bottom: 1px dashed #98dafc; 
+    font-size: 20px;
+    height: 24px;
+}
+
+input[type="submit"] {
+    margin-top: 2px;
+    color: #98dafc;
+    background: #fff;
+}
+input[type="submit"]:hover {
+    border: 2px solid #daad86;
+    color:#312c32;
+     -webkit-box-shadow: 0px 0px 5px 2px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 5px 2px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 5px 2px rgba(204,204,204,0.9) ;
+    
+}
+
+.remove-button {
+    float: right;
+    color: #daad86;
+    border: 1px solid #daad86;
+    border-radius: 5px;
+    padding: 5px;
+}
+.remove-button:hover, .removeAll-button:hover {
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 5px 2px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 5px 2px rgba(204,204,204,0.9) ;
+	border: 1px solid #98dafc;
+	color: #312c32;
+    outline: none;
+}
+
+.removeAll-button {
+    width: 150px;
+    font-size: 14px;
+    clear: both;
+    margin: 50px auto 30px auto;
+    color: #daad86;
+    border: 1px solid #daad86;
+    border-radius: 5px;
+    padding: 5px;
+}
